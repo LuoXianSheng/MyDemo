@@ -60,7 +60,7 @@ public class MainActivity extends Activity implements View.OnTouchListener,
         builder = new NotificationCompat.Builder(this);
         manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         views = new RemoteViews(getPackageName(), R.layout.notification);
-        views.setTextViewText(R.id.tvTitle, "今天我要嫁给你");
+        views.setTextViewText(R.id.tvTitle, "今天你要嫁给我");
         views.setTextViewText(R.id.tvName, "Mr.Dj");
         Intent downI = new Intent();
         downI.setAction(Config.NOTIFY_NEXT_ACTION);
