@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android\\MyApplication\\uploadfile\\build\\intermediates\\res\\merged\\debug\\drawable\\other.png",
+        "source": "E:\\Android\\MyApplication\\uploadfile\\src\\main\\res\\drawable\\other.png"
+    },
+    {
+        "merged": "E:\\Android\\MyApplication\\uploadfile\\build\\intermediates\\res\\merged\\debug\\drawable\\folder.png",
+        "source": "E:\\Android\\MyApplication\\uploadfile\\src\\main\\res\\drawable\\folder.png"
+    }
+]

@@ -1,0 +1,4 @@
+include ':httpget', ':testasynctask', ':图灵聊天机器人', ':播放器', ':多线程下载', ':高德地图定位', 'imageloader'
+include ':uploadfile'
+
+//, ':ViewPagerIndicator', ':班费'

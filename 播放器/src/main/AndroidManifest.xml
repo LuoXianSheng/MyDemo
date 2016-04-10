@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.newer.player" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".PlayerService" />
+
+        <receiver android:name=".MainActivity$MusicReceiver" />
+        <receiver android:name=".MainActivity$NotifyReceiver">
+            <intent-filter>
+                <action android:name="com.newer.action.NOTIFY_NEXT_ACTION" />
+                <action android:name="com.newer.action.NOTIFY_PLAY_ACTION" />
+                <action android:name="com.newer.action.NOTIFY_PAUSE_ACTION" />
+                <action android:name="com.newer.action.NOTIFY_UPDATE_ACTION" />
+                <action android:name="com.newer.action.NOTIFY_INIT_ACTION" />
+                <action android:name="com.newer.action.NOTIFY_CONTINUE_ACTION" />
+                <action android:name="com.newer.action.NOTIFY_DELETE_ACTION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

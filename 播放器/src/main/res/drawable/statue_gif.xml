@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:duration="200" android:drawable="@drawable/qq_aio_record_play_02" />
+    <item android:duration="200" android:drawable="@drawable/qq_aio_record_play_03" />
+    <item android:duration="200" android:drawable="@drawable/qq_aio_record_play_04" />
+    <item android:duration="200" android:drawable="@drawable/qq_aio_record_play_05" />
+    <item android:duration="200" android:drawable="@drawable/qq_aio_record_play_06" />
+    <item android:duration="200" android:drawable="@drawable/qq_aio_record_play_07" />
+    <item android:duration="200" android:drawable="@drawable/qq_aio_record_play_08" />
+    <!--<item android:duration="300" android:drawable="@drawable/qvip_emoji_sound_new_emo_voice1" />-->
+    <!--<item android:duration="300" android:drawable="@drawable/qvip_emoji_sound_new_emo_voice2" />-->
+    <!--<item android:duration="300" android:drawable="@drawable/qvip_emoji_sound_new_emo_voice3" />-->
+</animation-list>

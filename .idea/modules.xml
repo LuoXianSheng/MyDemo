@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpget/httpget.iml" filepath="$PROJECT_DIR$/httpget/httpget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageloader/imageloader.iml" filepath="$PROJECT_DIR$/imageloader/imageloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testasynctask/testasynctask.iml" filepath="$PROJECT_DIR$/testasynctask/testasynctask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uploadfile/uploadfile.iml" filepath="$PROJECT_DIR$/uploadfile/uploadfile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/图灵聊天机器人/图灵聊天机器人.iml" filepath="$PROJECT_DIR$/图灵聊天机器人/图灵聊天机器人.iml" />
+      <module fileurl="file://$PROJECT_DIR$/多线程下载/多线程下载.iml" filepath="$PROJECT_DIR$/多线程下载/多线程下载.iml" />
+      <module fileurl="file://$PROJECT_DIR$/播放器/播放器.iml" filepath="$PROJECT_DIR$/播放器/播放器.iml" />
+      <module fileurl="file://$PROJECT_DIR$/高德地图定位/高德地图定位.iml" filepath="$PROJECT_DIR$/高德地图定位/高德地图定位.iml" />
+    </modules>
+  </component>
+</project>

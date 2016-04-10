@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="你的名字"
+        android:textColor="#444444"
+        android:textSize="25sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_remark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:text="备注"
+        android:textColor="#898989"
+        android:textSize="18sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="2dp"
+        android:text="20151125"
+        android:textColor="#ffffff"
+        android:textSize="17sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_name"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:text="NewText"
+        android:textSize="25sp"/>
+
+</RelativeLayout>

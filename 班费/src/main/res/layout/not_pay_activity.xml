@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/top"
+        android:id="@+id/title_not_pay"/>
+
+    <ListView
+        android:id="@+id/lv_not_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#dddddd"
+        android:paddingTop="15dp"
+        android:dividerHeight="3px"/>
+</LinearLayout>
