@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
     private OkHttpClient okHttpClient;
     private Request request;
-
     private String url = "http://www.tuling123.com/openapi/api?key=13989d3de128550986294b47d0d5f5bc&info=长沙天气";
 
     @Override
