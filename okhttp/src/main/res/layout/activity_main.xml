@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="10dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="和我说话"/>
 
     <Button
-        android:id="@+id/btnHttpGet"
-        android:text="http get"
-        android:textSize="20sp"
+        android:id="@+id/post"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="post event"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btnHttpGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http get"
+        android:textSize="20sp"/>
 
+    <Button
+        android:id="@+id/btnHttpPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http post"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnHttpUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http upload"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

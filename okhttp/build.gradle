@@ -26,4 +26,5 @@ dependencies {
     compile files('libs/okhttp3.jar')
     compile files('libs/okhttputils-2_3_8.jar')
     provided files('libs/Xutils3.0.jar')
+    compile files('libs/eventbus-3.0.0.jar')
 }
